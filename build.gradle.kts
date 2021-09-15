@@ -18,10 +18,10 @@ repositories {
 }
 
 
-val kotlinWrappersVersion = "0.0.1-pre.231-kotlin-1.5.21"
+val kotlinWrappersVersion = "5.2.0-pre.204-kotlin-1.5.0"
 dependencies {
-    implementation("org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom:${kotlinWrappersVersion}")
-    implementation("org.jetbrains.kotlin-wrappers:kotlin-react-router-dom")
+    //implementation("org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom:${kotlinWrappersVersion}")
+    implementation("org.jetbrains.kotlin-wrappers:kotlin-react-router-dom:${kotlinWrappersVersion}")
     //implementation("org.sample:klib:1.3")
     /*implementation("org.jetbrains.kotlin-wrappers:kotlin-react")
     implementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom")
